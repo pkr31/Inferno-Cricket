@@ -6,6 +6,12 @@
   "rules": {
     "array-type": false,
     "arrow-parens": false,
+    "indent": {
+      "options": [
+        "spaces",
+        4
+      ]
+    },
     "deprecation": {
       "severity": "warn"
     },

@@ -1,6 +1,8 @@
 {
   "name": "Inferno Cricket",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "f21c6a5a"
 }
