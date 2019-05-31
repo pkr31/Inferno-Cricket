@@ -1,4 +1,4 @@
-<mat-sidenav-container class="sidenav-container">
+<!-- <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer class="sidenav" fixedInViewport="true"
     [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'"
     [opened]="!(isHandset$ | async)">
@@ -18,8 +18,61 @@
       </button>
       <span>Inferno Cricket</span>
     </mat-toolbar>
-    <!-- <div class="col-md-6" id="img1">
+     <div class="col-md-6" id="img1">
       <img src="../../assets/images/cric-img.jpg" class="img-responsive " id="img2">
     </div> -->
-  </mat-sidenav-content>
-</mat-sidenav-container>
+<!-- </mat-sidenav-content>
+</mat-sidenav-container> -->
+
+<section class="nav-bar">
+  <div class="nav-container">
+    <div class="brand">
+      <a href=""><img src="../../assets/icon/criclogo.png"></a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="javascript:void(0)"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="javascript:void(0)">Home</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Admin</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Tournaments</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="javascript:void(0)">Fantasy League</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">IPL</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">BPL</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Updates</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="javascript:void(0)">Upcoming Matches</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">News</a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">Notice</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Players</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">About</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
